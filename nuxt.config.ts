@@ -4,12 +4,17 @@ export default defineNuxtConfig({
     devtools: { enabled: true },
     srcDir: "src",
     modules: [
-      "@nuxtjs/tailwindcss",
-      "@nuxtjs/color-mode",
-      "shadcn-nuxt",
-      "@nuxt/image",
-      "@nuxt/fonts",
-      "@nuxt/icon",
+        "@nuxtjs/tailwindcss",
+        "@nuxtjs/color-mode",
+        "shadcn-nuxt",
+        "@nuxt/image",
+        "@nuxt/fonts",
+        "@nuxt/icon",
     ],
     css: ["@/css/globals.css"],
+    app: {
+        head: {
+            link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
+        },
+    },
 });
