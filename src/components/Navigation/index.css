@@ -1,0 +1,68 @@
+.OuterContainer {
+    background-color: #181818;
+    width: 100vw;
+
+    border-bottom: 1px solid #454545;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.NavItem {
+    color: #c3c3c3;
+
+    font-family: "Segoe UI";
+    font-size: 14px;
+
+    border-radius: 6px;
+
+    padding-left: 8px;
+    padding-right: 8px;
+
+    cursor: default;
+}
+.NavItem:hover {
+    background-color: #2d2e2e;
+}
+
+.NavInput {
+    background-color: #202020;
+    border-color: #454545;
+
+    font-family: "Segoe UI", sans-serif;
+    opacity: 1;
+
+    height: 24px;
+}
+.NavInput::placeholder {
+    text-align: center;
+    color: white;
+}
+.NavInput:hover {
+    background-color: #313131;
+    border-color: #5b5b5b;
+}
+
+.NavButton {
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+
+    height: 100%;
+    aspect-ratio: 1;
+
+    transition: 0.2s;
+}
