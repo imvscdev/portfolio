@@ -1,3 +1,18 @@
+.Centre-Col {
+    display: flex;
+    flex-direction: column;
+
+    vertical-align: middle;
+    align-items: center;
+}
+.Centre-Row {
+    display: flex;
+    flex-direction: row;
+
+    vertical-align: middle;
+    align-items: center;
+}
+
 .OuterContainer {
     background-color: #181818;
     width: 100vw;
